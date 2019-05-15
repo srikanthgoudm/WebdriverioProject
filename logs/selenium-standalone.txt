@@ -1,0 +1,57 @@
+22:58:00.826 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.0, revision: 2ecb7d9a
+22:58:00.923 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2018-12-18 22:58:01.006:INFO::main: Logging initialized @666ms to org.seleniumhq.jetty9.util.log.StdErrLog
+22:58:01.307 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+22:58:01.420 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+22:58:02.456 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "firefox",
+  "handlesAlerts": true,
+  "javascriptEnabled": true,
+  "locationContextEnabled": true,
+  "loggingPrefs": {
+    "browser": "ALL",
+    "driver": "ALL"
+  },
+  "maxInstances": 1,
+  "requestOrigins": {
+    "url": "http:\u002f\u002fwebdriver.io",
+    "version": "4.12.0",
+    "name": "webdriverio"
+  },
+  "rotatable": true
+}
+22:58:02.457 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1545173882919	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3x/j492x07s4f584txf2l6hgpyjph1ws1/T/rust_mozprofile.pkYfMkARidIV"
+2018-12-18 22:58:04.422 plugin-container[53036:450313] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-12-18 22:58:04.625 plugin-container[53036:450313] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c1b, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-12-18 22:58:04.794 plugin-container[53037:450344] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-12-18 22:58:04.893 plugin-container[53037:450344] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7627, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1545173885123	Marionette	INFO	Listening on port 64093
+1545173885209	Marionette	DEBUG	[4294967297] Frame script loaded
+1545173885210	Marionette	DEBUG	[4294967297] Frame script registered
+22:58:05.226 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:58:05.267 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8928cfa6-3028-e346-9d9e-388a96d3fd96 (org.openqa.selenium.firefox.GeckoDriverService)
+2018-12-18 22:58:05.512 plugin-container[53038:450455] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x882b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1545173885557	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-12-18 22:58:05.602 plugin-container[53038:450455] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1545173886176	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1545173887382	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://automationpractice.com/index.php
+1545173888659	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://automationpractice.com/index.php
+1545173888861	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://automationpractice.com/index.php
+1545173890136	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://automationpractice.com/index.php
+1545173890139	Marionette	DEBUG	[4294967297] Received DOM event unload for http://automationpractice.com/index.php
+1545173890400	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://automationpractice.com/index.php?controller=authentication&back=my-account
+1545173890470	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://automationpractice.com/index.php?controller=authentication&back=my-account
+1545173890769	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://automationpractice.com/index.php?controller=authentication&back=my-account
+1545173891783	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://automationpractice.com/index.php?controller=authentication&back=my-account
+1545173891784	Marionette	DEBUG	[4294967297] Received DOM event unload for http://automationpractice.com/index.php?controller=authentication&back=my-account
+1545173891963	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://automationpractice.com/index.php?controller=my-account
+1545173892028	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://automationpractice.com/index.php?controller=my-account
+1545173892222	Marionette	INFO	Stopped listening on port 64093
+22:58:12.797 INFO [ActiveSessions$1.onStop] - Removing session 8928cfa6-3028-e346-9d9e-388a96d3fd96 (org.openqa.selenium.firefox.GeckoDriverService)
