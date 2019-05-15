@@ -1,4 +1,4 @@
-Feature: User login for automationpractice.com
+Feature: User login for automationpractice.com website
   As a customer
   I want to see login page
   So that I can login and access my aacount
